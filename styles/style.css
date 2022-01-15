@@ -257,6 +257,8 @@ footer p{
     margin: 10px;
 }
 /*-------------------------------- media queries ----------------------------------*/
+
+/*------------------------------- mobile devices  ---------------------------------*/
 @media only screen and (max-width:688px) {
 
     .main-container{
@@ -292,13 +294,15 @@ footer p{
     }
     .subscribe{
         margin: 0% 5%;
+        margin-left: 0px;
         }
     .nav-menu, .logo-section{
         display: none;
     }
     }
 
-    /* tablet devices */
+    /*---------------- tablet devices -----------------*/
+
     @media only screen and (min-width:688px) and (max-width:992px) {
         .mega-section{
             width: 100%;
