@@ -49,6 +49,9 @@ h1{
     padding-right: 5%;
     padding-top: 50px;
 }
+.half-width img{
+    width: 90%;
+}
 .half-width:hover img{
     transform: scale(1.1);
     transition: 1s;
@@ -56,6 +59,10 @@ h1{
 #mega-section-paragraph{
     margin-bottom: 40px;
     font-size: 20px;
+    word-wrap: break-word;
+}
+.preebook-button a{
+ display: inline;
 }
 .button{
     text-decoration: none;
@@ -230,6 +237,7 @@ footer{
     padding: 0px 0px;
     margin-bottom: 0;
     height: 250px;
+    width: 100%;
     color: white;
     text-align: center;
 }
@@ -249,3 +257,20 @@ footer p{
     color: #D9DBE1;
     margin: 10px;
 }
+/*---------------------------------------------------------------- media qu */
+@media only screen and (max-width:688px) {
+
+    .mega-section, .half-width{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mega-section{
+        align-items: center;
+    }
+    .half-width img{
+        width: 70%;
+        height: auto;
+    }
+    .nav-bar, .logo-section, .all-collection, .subscribe{
+        display: none;
+    }
