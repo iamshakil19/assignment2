@@ -186,10 +186,9 @@ h3{
 .see-more a{
     text-decoration: none;
 }
-/* subscribe section  */
+/*-------------------- subscribe section  ------------------------*/
 .subscribe{
     text-align: center;
-    /* background-color: #0a0826; */
     color: white;
     display: inline-block;
     padding: 30px 35px;
@@ -231,7 +230,7 @@ h3{
     transition-duration: .5s;
 }
 
-/* footer section  */
+/*----------------------------- footer section  -----------------------------*/
 footer{
     background-color: #0a0826;
     padding: 0px 0px;
@@ -257,7 +256,7 @@ footer p{
     color: #D9DBE1;
     margin: 10px;
 }
-/*---------------------------------------------------------------- media qu */
+/*-------------------------------- media queries ----------------------------------*/
 @media only screen and (max-width:688px) {
 
     .main-container{
